@@ -5,6 +5,8 @@ import Search from './components/search';
 import BookList from './components/Booklist';
 import data from './models/books.json';
 import About from './pages/about';
+import Pagination from './components/pagination';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -46,7 +48,7 @@ const App = (props) => {
         />
         <Route
           exact
-          path='/pages/About'
+          path='/About'
           render={() => (
             <React.Fragment>
               <Header />
